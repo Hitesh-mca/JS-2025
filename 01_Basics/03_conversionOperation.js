@@ -27,3 +27,18 @@ console.log(typeof salary);
 
 let stringNumber=String(salary)
 console.log(stringNumber, typeof stringNumber);
+
+
+// ********************************* Operation **********
+
+console.log(2 + 2);
+console.log("1" + 2)
+console.log(1 + "2");
+console.log("1"+ 2 + 2);
+console.log(2 + 2 + "1");
+
+const id=Symbol('123')
+const anotherID=Symbol('123')
+console.log(id);
+console.log(anotherID)
+console.log("Check both id same = > ", id === anotherID)

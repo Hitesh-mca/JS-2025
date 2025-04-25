@@ -45,3 +45,15 @@ console.log(Object.entries(tinderUser));//give both property and value in array 
 
 
 console.log(tinderUser.hasOwnProperty('id'));
+
+
+//**************** Destucturing ************* */
+const course={
+    courseName :"Java Script",
+    price : 2000,
+    courseInstructor : "Hitesh"
+}
+//course.courseInstructor
+const {courseInstructor: instuctor}=course // best way to clean code 
+const {courseName,price}=course
+console.log(`course name is ${courseName} course instuctor is ${instuctor} and price is ${price}`);// no need to write course.price or course.courseName bcz above code line(57 line number)

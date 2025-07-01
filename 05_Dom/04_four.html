@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat UL and add it with function</title>
+</head>
+<body style="background-color: black; color: white; font-size: 1cm;">
+    <ul class="language">
+        <li>Java Script</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+        const li=document.createElement("li");
+        
+        document.querySelector(".language").appendChild(li)
+        li.innerHTML=`${langName}`
+    }
+    addLanguage("Python")
+
+    // add function with some optimize way
+    function addOptimizeWayLang(langName){
+        const li=document.createElement("li")
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addOptimizeWayLang("Type script")
+
+    //Edit value
+    const lang=document.querySelector("li:nth-child(2)")
+    //lang.innerHTML="hh"
+    const newli=document.createElement('li')
+    newli.textContent="GGG"
+    lang.replaceWith(newli)
+    
+</script>
+</html>

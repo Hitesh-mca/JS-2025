@@ -33,7 +33,15 @@
     //lang.innerHTML="hh"
     const newli=document.createElement('li')
     newli.textContent="GGG"
+    newli.style.background="red"
     lang.replaceWith(newli)
-    
+
+    //way 2 for edit
+    const firstli=document.querySelector("li:first-child")
+    firstli.outerHTML="<li>C++</li>"
+
+    //remove element
+    const lastLi=document.querySelector("li:nth-child(2)")
+    lastLi.remove()
 </script>
 </html>

@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+  flex-direction: column;     /* put items in a column */
+  align-items: center;        /* center horizontally */
+  justify-content: center;    /* center vertically if height is set */
+  height: 100vh;              /* full screen height (optional) */
+  background-color: #f5f5f5;  /
+}
+.subdiv{
+    
+    padding: 10px;
+    align-items: center;
+}
+.calulate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.diaply-lebal{
+    
+    display: block;
+    margin-bottom: 5px;
+}
+.diaply-lebal{
+    display: flex;
+  flex-direction: column;
+  align-items: center;       /* center horizontally */
+  justify-content: center;   /* center vertically (if height is set) */
+  height: 10px;             /* optional: for vertical centering */
+  text-align: center;
+
+  padding: 5px;
+  margin: 10px auto;         /* center the box itself */
+  width: fit-content;
+}

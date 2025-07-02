@@ -17,5 +17,8 @@ const body=document.querySelector('body')
         if(e.target.id==='blue'){
             body.style.backgroundColor=e.target.id
         }
+        if(e.target.id==='White'){
+            body.style.backgroundColor=e.target.id
+        }
     })
  })

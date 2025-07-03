@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding:20px ;
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.gameContainer{
+    padding: 30px;
+    width: 300px;
+}
+#submitBtn{
+    display: block;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 5px;
+    height: 50px;
+    width:150px;
+    color: aliceblue;
+    font-size:large;
+}
+#guessInput{
+    font-size: large;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
